@@ -4,6 +4,10 @@
 
 This is a the frontend code for a quiz application inspired by Duolingo.
 
+## See The App In Action (Video)
+
+[Duolingo Inspired Quiz App on Vimeo](https://vimeo.com/406382377)
+
 ## App Images
 
 <img src="https://user-images.githubusercontent.com/20585043/79029374-bedffe80-7bb1-11ea-81bd-718179a9a308.jpeg" width="450">  <img src="https://user-images.githubusercontent.com/20585043/79029388-d3bc9200-7bb1-11ea-94ad-ae26b0a32264.jpeg" width="450">
