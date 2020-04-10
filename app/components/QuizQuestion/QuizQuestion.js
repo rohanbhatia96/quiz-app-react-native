@@ -25,6 +25,7 @@ const QuizQuestion = props => {
         }
         onPress={() => {
           setSelectedOption(option);
+          props.setUserAnswer(option);
         }}
       />
     );

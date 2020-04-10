@@ -9,15 +9,23 @@ import styles from './styles';
 import questions from '../../questions';
 const Quiz = props => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [userAnswer, setUserAnswer] = useState(null);
   const questionsArray = questions.questionsArray;
   const QuizButtonPressed = () => {
-    if (currentIndex === questionsArray.length) {
-      console.log('submit quiz');
+    if (userAnswer === questionsArray[currentIndex].correctAnswer) {
+      console.log('correct answer');
+      console.log(questionsArray[currentIndex].correctResponse);
+    } else {
+      console.log('incorrect answer');
+      console.log(questionsArray[currentIndex].incorrectResponse);
     }
 
     if (currentIndex < questionsArray.length) {
       setCurrentIndex(currentIndex + 1);
     }
+  };
+  const setUserAnswerFromChild = answer => {
+    setUserAnswer(answer);
   };
   return (
     <View style={styles.mainContainer}>
@@ -34,6 +42,7 @@ const Quiz = props => {
             <QuizQuestion
               question={questionsArray[currentIndex].question}
               options={questionsArray[currentIndex].options}
+              setUserAnswer={setUserAnswerFromChild}
             />
           </View>
           <View style={styles.buttonContainer}>

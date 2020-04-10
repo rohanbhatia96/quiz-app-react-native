@@ -4,41 +4,41 @@
             "id": "1",
             "question": "What is the color of the sky?",
             "options": ["Red", "Green", "Blue", "Magenta"],
-            "correct-answer": "Blue",
-            "correct-response": "You are right. The sky is Blue.",
-            "incorrect-response": "That's not right. The sky is blue."
+            "correctAnswer": "Blue",
+            "correctResponse": "You are right. The sky is Blue.",
+            "incorrectResponse": "That's not right. The sky is blue."
         },
         {
             "id": "2",
             "question": "What is 3x9?",
             "options": ["27", "21", "33", "41", "29", "31"],
-            "correct-answer": "27",
-            "correct-response": "That's correct. 3 times 9 is 27",
-            "incorrect-response": "Uh oh! That's not right. The correct answer is 27."
+            "correctAnswer": "27",
+            "correctResponse": "That's correct. 3 times 9 is 27",
+            "incorrectResponse": "Uh oh! That's not right. The correct answer is 27."
         },
         {
             "id": "3",
             "question": "The earth revolves around the ___",
             "options": ["Moon", "Sun", "Uranus"],
-            "correct-answer": "Sun",
-            "correct-response": "Correct Answer. The earth revolves around the sun.",
-            "incorrect-response": "No. The earth revolves around the sun."
+            "correctAnswer": "Sun",
+            "correctResponse": "Correct Answer. The earth revolves around the sun.",
+            "incorrectResponse": "No. The earth revolves around the sun."
         },
         {
             "id": "4",
             "question": "Who's the greatest football player of all time?",
             "options": ["Pele", "Cristiano Ronaldo", "Messi", "Maradona", "George Best"],
-            "correct-answer": "Messi",
-            "correct-response": "Yes! We all know Messi is the GOAT.",
-            "incorrect-response": "Uh oh! You need to brush up your football knowledge. Messi is the GOAT."
+            "correctAnswer": "Messi",
+            "correctResponse": "Yes! We all know Messi is the GOAT.",
+            "incorrectResponse": "Uh oh! You need to brush up your football knowledge. Messi is the GOAT."
         },
         {
             "id": "5",
             "question": "Who's the CEO of Facebook?",
             "options": ["Bill Gates", "Jeff Bezos", "Mark Zuckerberg"],
-            "correct-answer": "Mark Zuckerberg",
-            "correct-response": "You are right. Zuckerberg is the CEO of Facebook.",
-            "incorrect-response": "That's not right. The CEO of Facebook is Mark Zuckerberg."
+            "correctAnswer": "Mark Zuckerberg",
+            "correctResponse": "You are right. Zuckerberg is the CEO of Facebook.",
+            "incorrectResponse": "That's not right. The CEO of Facebook is Mark Zuckerberg."
         }
     ]
 }
