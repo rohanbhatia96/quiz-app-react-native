@@ -1,37 +1,17 @@
 import React, {useState} from 'react';
-import {View} from 'react-native';
-import styles from './styles';
-import QuizHeader from './components/QuizHeader';
-import QuizQuestion from './components/QuizQuestion';
-import QuizButton from './components/QuizButton';
-import questions from './questions';
-
+import {View, StatusBar} from 'react-native';
+import Quiz from './screens/Quiz';
+import Home from './screens/Home';
 const App = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const questionsArray = questions.questionsArray;
-  const QuizButtonPressed = () => {
-    if (currentIndex === questionsArray.length - 1) {
-      console.log('submit quiz');
-    }
-
-    if (currentIndex < questionsArray.length - 1) {
-      setCurrentIndex(currentIndex + 1);
-    }
+  const [quizStarted, setQuizStarted] = useState(false);
+  const setQuizStartedFromChild = value => {
+    setQuizStarted(value);
   };
   return (
-    <View style={styles.mainContainer}>
-      <View style={styles.headerContainer}>
-        <QuizHeader />
-      </View>
-      <View style={styles.questionContainer}>
-        <QuizQuestion
-          question={questionsArray[currentIndex].question}
-          options={questionsArray[currentIndex].options}
-        />
-      </View>
-      <View style={styles.buttonContainer}>
-        <QuizButton title="Next" onPress={QuizButtonPressed} />
-      </View>
+    <View style={{flex: 1}}>
+      <StatusBar barStyle="dark-content" backgroundColor="#B1EDE8" />
+      {!quizStarted && <Home setQuizStarted={setQuizStartedFromChild} />}
+      {quizStarted && <Quiz setQuizStarted={setQuizStartedFromChild} />}
     </View>
   );
 };

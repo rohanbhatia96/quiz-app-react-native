@@ -8,7 +8,7 @@ const QuizButton = props => {
     <View>
       <Button
         buttonStyle={styles.quizButton}
-        title={props.title || 'Button Title'}
+        title={props.title}
         onPress={props.onPress}
       />
     </View>
