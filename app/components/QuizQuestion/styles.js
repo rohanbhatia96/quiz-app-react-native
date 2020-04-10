@@ -16,12 +16,14 @@ const styles = StyleSheet.create({
   optionsContainer: {
     flex: 0.8,
     marginHorizontal: 50,
+    justifyContent: 'center',
   },
   optionsContainerInline: {
     flex: 0.8,
     flexDirection: 'row',
     flexWrap: 'wrap',
     justifyContent: 'center',
+    alignContent: 'center',
   },
   optionSingle: {
     paddingHorizontal: 20,
