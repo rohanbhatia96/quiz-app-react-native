@@ -21,7 +21,7 @@
         {
             "id": "4",
             "question": "Who's the greatest football player of all time?",
-            "options": ["Pele", "Cristiano Ronaldo", "Messi", "Maradona"],
+            "options": ["Pele", "Cristiano Ronaldo", "Messi", "Maradona", "George Best"],
             "correct-answer": "Messi"
         },
         {
