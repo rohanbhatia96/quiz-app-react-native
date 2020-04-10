@@ -10,6 +10,7 @@ const QuizButton = props => {
         buttonStyle={styles.quizButton}
         title={props.title}
         onPress={props.onPress}
+        disabled={props.disabled}
       />
     </View>
   );

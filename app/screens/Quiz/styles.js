@@ -53,7 +53,41 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
   },
-  quizEndButtons: {},
+  modalContainer: {
+    justifyContent: 'flex-end',
+    margin: 0,
+  },
+  modalContentCorrect: {
+    padding: 20,
+    paddingBottom: 5,
+    backgroundColor: '#013220',
+  },
+  modalButtonCorrect: {
+    backgroundColor: '#90ee90',
+    marginTop: 20,
+    elevation: 5,
+  },
+  modalContentIncorrect: {
+    padding: 20,
+    paddingBottom: 5,
+    backgroundColor: '#FF6978',
+  },
+  modalButtonIncorrect: {
+    backgroundColor: '#ffb6bd',
+    marginTop: 20,
+    elevation: 5,
+  },
+  modalButtonTitleCorrect: {
+    color: '#3B0D11',
+  },
+  modalButtonTitleIncorrect: {
+    backgroundColor: '#ffb6bd',
+    color: '#3B0D11',
+  },
+  modalFeedback: {
+    color: '#FFFCF9',
+    fontSize: 16,
+  },
 });
 
 export default styles;
