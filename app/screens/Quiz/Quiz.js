@@ -17,14 +17,10 @@ const Quiz = props => {
   const [modalStyle, setModalStyle] = useState(null);
   const CheckButtonPressed = () => {
     if (userAnswer === questionsArray[currentIndex].correctAnswer) {
-      console.log('correct answer');
-      console.log(questionsArray[currentIndex].correctResponse);
       setFeedbackText(questionsArray[currentIndex].correctResponse);
       setModalStyle('correct');
       setIsModalVisible(true);
     } else {
-      console.log('incorrect answer');
-      console.log(questionsArray[currentIndex].incorrectResponse);
       setFeedbackText(questionsArray[currentIndex].incorrectResponse);
       setModalStyle('incorrect');
       setIsModalVisible(true);
