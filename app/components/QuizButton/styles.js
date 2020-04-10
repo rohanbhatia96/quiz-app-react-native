@@ -2,13 +2,12 @@ import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
   quizButton: {
-    paddingTop: 20,
-    paddingBottom: 20,
-    borderColor: 'black',
-    borderWidth: 2,
-    backgroundColor: 'green',
+    paddingTop: 15,
+    paddingBottom: 15,
+    backgroundColor: '#6D435A',
     elevation: 5,
     borderRadius: 5,
+    margin: 25,
   },
 });
 
