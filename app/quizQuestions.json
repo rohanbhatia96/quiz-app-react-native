@@ -1,0 +1,34 @@
+{
+    "questionsArray": [
+        {
+            "id": "1",
+            "question": "What is the color of the sky?",
+            "options": ["Red", "Green", "Blue", "Magenta"],
+            "correct-answer": "Blue"
+        },
+        {
+            "id": "2",
+            "question": "What is 3x9?",
+            "options": ["27", "21", "33", "41", "29", "31"],
+            "correct-answer": "27"
+        },
+        {
+            "id": "3",
+            "question": "The earth revolves around the ___",
+            "options": ["Moon", "Sun", "Uranus"],
+            "correct-answer": "27"
+        },
+        {
+            "id": "4",
+            "question": "Who's the greatest football player of all time?",
+            "options": ["Pele", "Cristiano Ronaldo", "Messi", "Maradona"],
+            "correct-answer": "Messi"
+        },
+        {
+            "id": "5",
+            "question": "Who's the CEO of Facebook?",
+            "options": ["Bill Gates", "Jeff Bezos", "Mark Zuckerberg"],
+            "correct-answer": "Mark Zuckerberg"
+        }
+    ]
+}
