@@ -29,7 +29,6 @@ const QuizQuestion = props => {
       />
     );
   });
-
   return (
     <View style={styles.mainContainer}>
       <View style={styles.questionTitleContainer}>

@@ -5,7 +5,7 @@ import QuizButton from '../../components/QuizButton';
 import {View} from 'react-native';
 import styles from './styles';
 import questions from '../../questions';
-const Quiz = () => {
+const Quiz = props => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const questionsArray = questions.questionsArray;
   const QuizButtonPressed = () => {
@@ -20,7 +20,11 @@ const Quiz = () => {
   return (
     <View style={styles.mainContainer}>
       <View style={styles.headerContainer}>
-        <QuizHeader />
+        <QuizHeader
+          currentIndex={currentIndex}
+          quizLength={questionsArray.length}
+          setQuizStarted={props.setQuizStarted}
+        />
       </View>
       <View style={styles.questionContainer}>
         <QuizQuestion
@@ -29,7 +33,7 @@ const Quiz = () => {
         />
       </View>
       <View style={styles.buttonContainer}>
-        <QuizButton title="Next" onPress={QuizButtonPressed} />
+        <QuizButton title="Check" onPress={QuizButtonPressed} />
       </View>
     </View>
   );
