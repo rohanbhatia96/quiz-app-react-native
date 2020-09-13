@@ -14,7 +14,7 @@ This is a quiz application inspired by Duolingo. I have been using Duolingo for 
 2. React native animated library
 3. React native elements
 
-## App Screenshots
+## App screenshots
 
 <img src="https://user-images.githubusercontent.com/20585043/79029374-bedffe80-7bb1-11ea-81bd-718179a9a308.jpeg" width="400" style="margin:10px"> <img src="https://user-images.githubusercontent.com/20585043/79029388-d3bc9200-7bb1-11ea-94ad-ae26b0a32264.jpeg" width="400" style="margin:10px">
 
